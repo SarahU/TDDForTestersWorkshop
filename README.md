@@ -9,7 +9,8 @@ Part 2 - Part 1 completed (not all product rules are completed)
 Part 3 - Place for continued development  
 
 ## Requirements:
-This code was developed on a Windows 10 OS. You may experience additional issues than those listed below. Please raise a pull request or issue to log changes to the README.
+This code was developed on a Windows 10 OS.  
+You may experience additional issues than those listed below. Please raise a pull request or issue to log changes to the README.
 
 **Known issues**  
 At time of development, a few issues were encountered:
@@ -19,7 +20,7 @@ Issues in Windows with Chrome Webdriver - try Firefox instead
 
 **Installation instructions**  
 Python 3.6 - not 3.7 - see issues above  
-Please select to 'add the PYTHONPATH to your environment variables' option  
+Please select to 'add the PYTHONPATH to your environment variables option  
 
 Also install:  
 pip install -U Flask  
