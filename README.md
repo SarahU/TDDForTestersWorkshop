@@ -11,13 +11,13 @@ Part 3 - Place for continued development
 ## Requirements:
 This code was developed on a Windows 10 OS. You may experience additional issues than those listed below. Please raise a pull request or issue to log changes to the README.
 
-**Known issues**
+**Known issues**  
 At time of development, a few issues were encountered:
 
 Known bug where Flask does not work with Python 3.6.  
 Issues in Windows with Chrome Webdriver - try Firefox instead  
 
-**Installation instructions**
+**Installation instructions**  
 Python 3.6 - not 3.7 - see issues above  
 Please select to 'add the PYTHONPATH to your environment variables' option  
 
@@ -33,7 +33,7 @@ More about Python and Selenium here: https://selenium-python.readthedocs.io/gett
 Selenium drivers here: https://selenium-python.readthedocs.io/installation.html  
 Flask: http://flask.pocoo.org/docs/1.0/quickstart/#http-methods  
 
-**Running instructions**
+**Running instructions**  
 On Windows:  
   Product:  
     set FLASK_APP = app.py  
@@ -59,5 +59,3 @@ Current debt: 0  -> add 10 points
      7500-10000  -> minus 5 points  
     10000-15000  -> minus 15 points  
          >15000  -> minus 25 points  
-
-  
