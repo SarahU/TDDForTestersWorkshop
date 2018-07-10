@@ -1,0 +1,30 @@
+<html>
+  <head>
+      <title>Credit Rate Checker</title>
+      <h2>Calculate your credit rating</h2>
+  </head>
+  <body>
+
+    <!-- <form action="/action_page.php"> -->
+    <form action="{{ url_for('calc_rating') }}" method="post">
+        First name:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        Last name:
+        <br>
+        <input type="text" name="lastname" value="Mouse">
+        <br>
+        Occupation:
+        <br>
+        <input type="text" name="occupation" value="">
+        <br>
+        Number of credit cards:
+        <br>
+        <input type="text" name="numberofcreditcards" value="">
+        <br>
+        <br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+    <p name="submit_receieved_response"></p>
+  </body>
+</html>
