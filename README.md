@@ -15,20 +15,21 @@ You may experience additional issues than those listed below. Please raise a pul
 **Known issues**  
 At time of development, a few issues were encountered:
 
-Known bug where Flask does not work with Python 3.6.  
-Issues in Windows with Chrome Webdriver - try Firefox instead  
+Known bug where Flask does not work with Python 3.7 - use latest 3.6 instead.  
+Issues in Windows with Chrome Webdriver - try Firefox instead.  (If you have installed both drivers, make sure only one is in your system path, should you still encounter issues).
 
 **Installation instructions**  
 Python 3.6 - not 3.7 - see issues above  
-Please select to 'add the PYTHONPATH to your environment variables option  
+-> Windows users
+  * run CMD as Administrator  
+  * Please select to 'add the PYTHONPATH to your environment variables option  
 
 Also install:  
-pip install -U Flask  
-pip install -U pytest  
-pip install -U selenium  
-(pip comes with Python)  
+ * pip install -U Flask  
+ * pip install -U pytest  
+ * pip install -U selenium  
+ * (pip comes with Python)  
 
--> Windows users - run CMD as Administrator  
 
 More about Python and Selenium here: https://selenium-python.readthedocs.io/getting-started.html  
 Selenium drivers here: https://selenium-python.readthedocs.io/installation.html  
