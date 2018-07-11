@@ -5,7 +5,7 @@ This workshop looks at how to do TDD.
 It is aimed specifically at identifying the differences between what a traditionally role-based team may repeat because QAs and Dev use different tools and may not integrate. This serves as an example of why different roles need to work together and all have the same view of their codebase and pipeline.
 The workshop does not start from scratch with no code because it's designed for those who are not necessarily developers/programmers but can likely read existing code.
 
-Part 1 - Has some completed selenium tests but unit tests need to be written  
+Part 1 - Has some completed selenium tests (these will fail as logic is not coded yet) but unit tests need to be written
 Part 2 - Part 1 completed (not all product rules are completed)  
 Part 3 - Place for continued development  
 
